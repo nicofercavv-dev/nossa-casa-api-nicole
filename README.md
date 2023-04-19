@@ -49,7 +49,7 @@ Configurando projeto
     Após clonar esse repositório para sua maquina, ainda no terminal digite e aguarde a insstalação ser concluída:
 
     ```bash
-    cd backend-nodejs
+    cd Nossa-Casa-Api
     yarn install
     ```
 
