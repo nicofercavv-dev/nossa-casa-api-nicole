@@ -28,7 +28,7 @@
     "nodejs",
     "javascript"
   ],
-  "author": "Ju Dantas",
+  "author": "Willian Freitas",
   "license": "ISC",
   "dependencies": {
     "@babel/plugin-proposal-decorators": "^7.15.8",
