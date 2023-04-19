@@ -49,7 +49,7 @@ Configurando projeto
     Após clonar esse repositório para sua maquina, ainda no terminal digite e aguarde a insstalação ser concluída:
 
     ```bash
-    cd Nossa-Casa-Api
+    cd nossa-casa-api
     yarn install
     ```
 
