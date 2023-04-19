@@ -1,7 +1,7 @@
 {
-  "name": "acelera-movies-api",
+  "name": "Nossa-Casa-Api",
   "version": "1.0.0",
-  "description": "Acelera Movies",
+  "description": "Nossa Casa",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
