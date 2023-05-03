@@ -3,7 +3,7 @@ import { createConnection, ConnectionOptions } from 'typeorm'
 
 export const connect = async () => {
   const local = !process.env.DATABASE_URL
-  const url = process.env.DATABASE_URL || 'postgres://postgres:1234@localhost:5432/acelera_movies'
+  const url = process.env.DATABASE_URL || 'postgres://postgres:1234@localhost:5432/nossa_casa'
 
   const options: ConnectionOptions = {
     type: 'postgres',
