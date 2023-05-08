@@ -1,7 +1,7 @@
 {
   "type": "postgres",
   "name": "default",
-  "url": "postgres://postgres:1234@localhost:5432/aceleradora_agil",
+  "url": "postgres://postgres:1234@localhost:5432/nossa_casa",
   "synchronize": true,
   "entities": [
     "**/models/**/*{.ts,.js}"
