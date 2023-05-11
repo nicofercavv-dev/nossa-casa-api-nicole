@@ -7,6 +7,8 @@ export const getWorkshops = async (req, res) => {
     return res.json(workshops)
   } catch (error) {
     console.error(error)
-    return res.status(500).json({ message: "internal server error" })
+    return res
+      .status(500)
+      .json({ message: "internal server error", error: error })
   }
 }
