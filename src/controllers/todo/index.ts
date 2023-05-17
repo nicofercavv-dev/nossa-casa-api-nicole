@@ -4,5 +4,5 @@ export const itsWorks = (request, response) => {
 }
 
 export const getTODO = (request, response) => {
-  return response.json({ todos: [] })
+  return response.json({ todos: ['ihhh'] })
 }
