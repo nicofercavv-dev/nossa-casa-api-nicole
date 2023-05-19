@@ -1,5 +1,7 @@
-import axios from "axios"
+import dotenv from 'dotenv';
+dotenv.config();
+import axios from 'axios';
 
 export const clientCms = axios.create({
-  baseURL: "http://localhost:1337",
+  baseURL:process.env.URL_CMS,
 })

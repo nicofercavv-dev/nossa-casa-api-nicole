@@ -85,6 +85,5 @@ Os valores que devem ser atribuidos a elas vão depender dos ambientes.
 Para caso de ambiente **local** (sua máquina) deve ser criado um arquivo `.env` na raiz do projeto
 
 ```bash
-NODE_ENV=
-PGSSLMODE=no-verify
+URL_CMS=http://localhost:1337
 ```
