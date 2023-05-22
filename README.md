@@ -38,7 +38,7 @@ Este repositório serve como template para o backend de um projeto utilizando No
   Abra o terminal do seu sistema operacional e digite o seguinte comando:
 
   ```bash
-  git clone https://github.com/aceleradora-TW/nossa-casa-cms.git
+  git clone https://github.com/aceleradora-TW/nossa-casa-api.git
   ```
 
 - Iniciando a aplicação
