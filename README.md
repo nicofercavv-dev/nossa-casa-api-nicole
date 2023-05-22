@@ -1,13 +1,14 @@
-# Template Node JS
+# Nossa Casa Backend
 
 Este repositório serve como template para o backend de um projeto utilizando Node JS para a Nossa Casa.
 
 # Tecnologias
 
-- Node
+- Node v14.21
 - JavaScript / Typescript
 - Express
 - TypeORM
+- postgreSQL v10.23
 
 # Configurando projeto
 
@@ -22,14 +23,14 @@ Este repositório serve como template para o backend de um projeto utilizando No
 - [Instalar NodeJS](https://nodejs.org/en/)
 - Instalar o **Yarn**
 
-  Abra o terminal do seu sistema operacional e digite o seguinte comando:
+  Caso não possua o yarn e sua maquína, abra o terminal do seu sistema operacional e digite o seguinte comando:
 
   ```bash
   npm install -g yarn
   ```
 
 - [Instalar Postgres](https://www.postgresql.org/download/)
-- [Instalar Beekeeper](https://www.beekeeperstudio.io/get)
+- [Instalar Dbeaver](https://dbeaver.io/download/)
 - [Instalar Visual Studio Code](https://code.visualstudio.com/)
   - [Configuração do editor - Rocketseat](https://www.youtube.com/watch?v=c7P03kkrEG8) - _GraphQL e **Live Server** não são necessários serem instalados_
 - Clonar repositório
@@ -37,7 +38,7 @@ Este repositório serve como template para o backend de um projeto utilizando No
   Abra o terminal do seu sistema operacional e digite o seguinte comando:
 
   ```bash
-  git clone <endereço-do-repositorio-com-terminação.git>
+  git clone https://github.com/aceleradora-TW/nossa-casa-cms.git
   ```
 
 - Iniciando a aplicação
@@ -59,22 +60,6 @@ Este repositório serve como template para o backend de um projeto utilizando No
 
   ```bash
   Server's running in http://localhost:9000
-  ```
-
-- Rodar testes End to End
-
-Subir aplicação após criar a modificação e o testes na pasta ./e2eTest
-`bash yarn dev `
-
-Rodar todos os testes e2e
-`bash yarn run test:e2e `
-
-# TypeORM
-
-- Criando Migration
-
-  ```bash
-  yarn typeorm migration:create -n <NomeDaMigration>
   ```
 
 # Variáveis de ambiente
